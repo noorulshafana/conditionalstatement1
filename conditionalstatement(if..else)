@@ -1,0 +1,22 @@
+#include<stdio.h>
+int main()
+{
+	int score=0;
+	char grade;
+	printf("Enter score(0-100):");
+	scanf("%d",&score);
+	{
+	if(score>=85 && score<=100)
+	printf("grade = 'A'",score);
+    else if(score>=70 && score<=84)
+	printf("grade = 'B'",score);
+	else if(score>=55 && score<=69)
+	printf("grade = 'C'",score);
+	else if(score>=40 && score<=54)
+	printf("grade = 'D'",score);
+	else (score<40) 
+	printf("grade = 'F'",score);
+	printf("%c\n",grade);
+}
+	return 0;
+}
